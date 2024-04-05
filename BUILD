@@ -17,3 +17,14 @@ cc_library(
     ],
     visibility = ["//visibility:public"],
 )
+
+cc_library(
+    name = "tensorflow",
+    hdrs = glob(["include/**"]),
+    strip_include_prefix = "include",
+    srcs = [
+        "lib/libtensorflow_cc.so.1",
+        "lib/libtensorflow_framework.so.1"
+    ],
+    visibility = ["//visibility:public"],
+)
