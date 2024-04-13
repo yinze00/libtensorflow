@@ -27,7 +27,7 @@ cc_library(
         "lib/libtensorflow_framework.so.1"
     ],
     visibility = ["//visibility:public"],
-
+)
 
 cc_library(
     name = "cc_op_gen_main",
