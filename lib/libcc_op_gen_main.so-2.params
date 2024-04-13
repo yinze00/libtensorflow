@@ -1,0 +1,4 @@
+bazel-out/k8-opt/bin/tensorflow/cc/_objs/cc_op_gen_main/cc_op_gen.pic.o
+bazel-out/k8-opt/bin/tensorflow/cc/_objs/cc_op_gen_main/cc_op_gen_main.pic.o
+-lstdc++
+-lm
